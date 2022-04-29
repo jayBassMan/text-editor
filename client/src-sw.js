@@ -31,7 +31,7 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 /*
   TODO:
 
-client/src-sw.js
+client/src-sw.js 
 client/webpack.config.js
 client/src/database.js
 client/src/install.js
@@ -76,9 +76,10 @@ client/src/install.js
   If you supply the correct values below, this file is complete.
 */
 
-registerRoute( ({ request }) => variableForArrayHere.ARRAY_METHOD_HERE(variableForDestinationHere),
-  new CLASSNAME_TO_INSTANTIATE_HERE({
-    cacheName: 'asset-cache',
+registerRoute(
+  ({ request }) => ["style", "script", "worker"].includes(request.destination),
+  new StaleWhileRevalidate({
+    cacheName: "asset-cache",
     plugins: [
       new CacheableResponsePlugin({
         statuses: [0, 200],
