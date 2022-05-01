@@ -1,9 +1,9 @@
 # Text Editor
 
-A text editor that runs in the browser as a PWA. Additionally, it 
+A text editor that runs in the browser as a PWA.
 ## Overview
 
-will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+This application will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
 
 ## Installation
 
@@ -20,8 +20,7 @@ will feature a number of data persistence techniques that serve as redundancy in
 
 ## Usage
 
-  To use this app, simply open it up in the browser (with the deployed app link at the top of this readme) and then you are good to go. For offline use, the user can go to the link and hit the "install" button at the top left corner of the page.
-
+  To use this app, simply open it up in the browser (with the deployed app link at the top of this readme) and then you are good to go. 
 ### This section assumes you have installed the application, and created the .env file in the root directory.
 
 1. Start the server
@@ -42,7 +41,7 @@ The server is running, now you can make requests to it through your desired meth
 
 ---
 
-## Demonstration video
+## Link to deployed page
 
 
 ## **License**
