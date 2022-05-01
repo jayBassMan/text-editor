@@ -41,6 +41,10 @@ The server is running, now you can make requests to it through your desired meth
 
 ---
 
+## Sceenshot of final page
+
+![Final Page](./assets/img/text-editor%20screenshot.png)
+
 ## Link to deployed page
 
 [Heroku page](https://polar-mesa-26839.herokuapp.com)
